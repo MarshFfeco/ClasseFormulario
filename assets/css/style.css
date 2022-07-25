@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: #a2a5ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main{
+    width: 80vw;
+    height: auto;
+
+    margin-top: 50px;
+
+    display: inherit;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border-radius: 71px;
+    background: #a2a5ae;
+    box-shadow:  10px 10px 19px #868990,
+                 -10px -10px 19px #bec1cc;
+}
+
+h1{
+    padding: 30px;
+
+    font-size: 3em;
+    text-align: center;
+}
+
+.formulario{
+    width: 90%;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 9px 0;
+    display: block;
+
+    border: none;
+    border-radius: 91px;
+    background: #a2a5ae;
+    box-shadow: inset 10px 10px 19px #868990,
+                inset -10px -10px 19px #bec1cc;
+
+    transition: width .20s ease-in-out, padding .35s ease-in-out;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    width: 100%;
+    padding: 30px 20px;
+    font-size: 25px;
+    outline: none;
+    background: linear-gradient(145deg, #adb1ba, #92959d);
+    box-shadow:  10px 10px 19px #868990,
+                 -10px -10px 19px #bec1cc;
+}
+
+.erro-text {
+    margin-bottom: 20px;
+
+    font-size: 10px;
+
+    color: darkred;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 20px 0;
+   
+    display: inline-block;
+
+    font-size: 2em;
+
+    border: none;
+    border-radius: 91px;
+    background: #a2a5ae;
+    box-shadow: inset 10px 10px 19px #868990,
+                inset -10px -10px 19px #bec1cc;
+}
+
+input[type=submit]:active {
+    background: linear-gradient(145deg, #adb1ba, #92959d);
+    box-shadow:  10px 10px 19px #868990,
+                 -10px -10px 19px #bec1cc;
+}
