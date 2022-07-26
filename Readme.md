@@ -14,9 +14,8 @@
 
 <br>
 
-<h4 align="center">🏗️ PROJETO EM CONSTRUÇÃO 🏗️</h4>
+<h4 align="center">PROJETO FINALIZADO</h4>
 
-<br>
 <br>
 <br>
 
@@ -51,6 +50,6 @@ Anderson
 <br>
 
 # Version
-- 0.1.0
+- 0.2.0
 
 
